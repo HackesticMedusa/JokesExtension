@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Jokes",
+  "version": "1.0",
+  "description": "Provides a quick and easy way to get a laugh while browsing the web.",
+  "icons": {
+    "128": "logo.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "logo.png"
+  },
+  "permissions": [
+    "storage",
+    "activeTab"
+  ]
+}
